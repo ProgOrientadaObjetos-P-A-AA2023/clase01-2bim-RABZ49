@@ -1,7 +1,7 @@
-
 package herencia1;
 
 public class Estudiante {
+
     // 1.  Declarar
     // se declaran datos o atributos con visibilidad protegido
     // # nombresEstudiante: Cadena
@@ -14,45 +14,44 @@ public class Estudiante {
     protected int edadEstudiante;
 
     //  Métodos establecer y calcular para los datos o atributos de la clase
-    
     // 2.  Método establecerNombresEstudiante(nom: Cadena)
-    public void establecerNombresEstudiante(String nom){
+    public void establecerNombresEstudiante(String nom) {
         nombresEstudiante = nom;
     }
-  
+
     // 3.  Método establecerApellidoEstudiante(ape: Cadena)
-    public void establecerApellidoEstudiante(String ape){
+    public void establecerApellidoEstudiante(String ape) {
         apellidosEstudiante = ape;
     }
-    
+
     // 4.  Método establecerIdentificacionEstudiante(iden: Cadena)
-    public void establecerIdentificacionEstudiante(String iden){
+    public void establecerIdentificacionEstudiante(String iden) {
         identificacionEstudiante = iden;
     }
 
     // 5.  Método establecerEdadEstudiante(ed: Edad)
-    public void establecerEdadEstudiante(int ed){
+    public void establecerEdadEstudiante(int ed) {
         edadEstudiante = ed;
     }
-    
+
     //  Métodos obtener para los datos o atributos de la clase
     // 6.  Método obtenerNombresEstudiante() : Cadena
-    public String obtenerNombresEstudiante(){
-        return nombresEstudiante;  
+    public String obtenerNombresEstudiante() {
+        return nombresEstudiante;
     }
- 
+
     //7.  Método obtenerApellidoEstudiante() : Cadena
-    public String obtenerApellidoEstudiante(){
-        return apellidosEstudiante; 
+    public String obtenerApellidoEstudiante() {
+        return apellidosEstudiante;
     }
 
     // 8. Método obtenerIdentificacionEstudiante() : Cadena
-    public String obtenerIdentificacionEstudiante(){
-        return identificacionEstudiante; 
+    public String obtenerIdentificacionEstudiante() {
+        return identificacionEstudiante;
     }
 
     // 9.  Método obtenerEdadEstudiante() : Entero
-    public int obtenerEdadEstudiante(){
+    public int obtenerEdadEstudiante() {
         return edadEstudiante;
     }
 

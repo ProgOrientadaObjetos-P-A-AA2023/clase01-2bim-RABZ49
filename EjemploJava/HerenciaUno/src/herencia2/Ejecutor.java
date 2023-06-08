@@ -4,18 +4,20 @@
  * and open the template in the editor.
  */
 package herencia2;
+
 import herencia1.EstudiantePresencial;
 import herencia1.EstudianteDistancia;
+
 /**
  *
  * @author reroes
  */
 public class Ejecutor {
-    
+
     public static void main(String[] args) {
         // Objeto de tipo Estudiante Presencial
         EstudiantePresencial e1 = new EstudiantePresencial();
-        
+
         e1.establecerNombresEstudiante("René Rolando");
         e1.establecerApellidoEstudiante("Elizalde Solano");
         e1.establecerIdentificacionEstudiante("1104111111");
@@ -23,7 +25,7 @@ public class Ejecutor {
         e1.establecerNumeroCreditos(30);
         e1.establecerCostoCredito(15);
         e1.calcularMatriculaPresencial();
-        
+
         System.out.printf("Nombres: %s\n"
                 + "Apellidos: %s\n"
                 + "Identificación: %s\n"
@@ -38,6 +40,6 @@ public class Ejecutor {
                 e1.obtenerNumeroCreditos(),
                 e1.obtenerCostoCredito(),
                 e1.obtenerMatriculaPresencial());
-        
+
     }
 }
